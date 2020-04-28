@@ -10,7 +10,7 @@ spec:
         dockerRegistry: azurearcdata.azurecr.io
         dockerRepository: azure-arc-data
         dockerImageTag: private-preview-mar-2020
-        storageClass: default
+        storageClass: standard
         serviceType: LoadBalancer
         controllerPort: 30080
         serviceProxyPort: 30777
@@ -20,6 +20,6 @@ spec:
             displayName: "arcdatademo"
             connectionMode: "disconnected"
             billingMode: "consumption"
-            subscription: "foo"
-            resourceGroup: "foo"
-            location: "foo"
+            subscription: "513c5156-789d-4ab2-9ef1-175027551332"
+            resourceGroup: "ConnectToArc"
+            location: "EastUS"
